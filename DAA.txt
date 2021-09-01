@@ -1,0 +1,110 @@
+=> Algoritma :
+Step 1 Jika n=0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke step 2.
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan niai r ke n. Kemabali ke step 1.
+
+=>Pseudocode :
+While n /= 0 do
+r <- m mod n
+m <-n
+n <- r
+return m
+=========================================================================================
+
+=> Algoritma dari kpk 3 dan 4:
+Step 1 Jika n=0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke step 2.
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan niai r ke n. Kembali ke step 1.
+Step 4 Masukan nilai a dan b
+
+=> Pseudocode :
+int a, b
+While n /= 0 do
+r <- a mod b
+a <-b
+b <- r
+return a
+
+int a =4
+int b =3
+int kpk=0
+kpk = a*b / a, b
+print hasil kpk
+
+return 0
+
+=========================================================================================
+
+logika Algoritma :
+fungsi untuk menukar dua variabel x dan y:
+define swap(x, y)
+buffer =x
+x = y
+y = buffer
+
+
+===========================================================================================
+Fundamental dari pemecahan masalah algoritma:
+diketahui sebuah segitiga memiliki ukuran berikut :
+Alas 25
+Tinggi 30
+Algoritma hitung luas segitiga tersebut?
+
+a = alas 
+b = tinggi
+c = luas 
+
+c = 1/2 * a * b
+===========================================================================================
+Tentukan algoritma dan pseudocode luas jajar genjang 
+panjang = 5
+lebar = 3
+
+a = panjang
+b = lebar
+c = luas
+
+c = a*b
+
+a = 5
+b = 3
+c = luas
+
+c = 5 * 3 = 15
+
+===========================================================================================
+tentukan algoritma dan pseudocod volume tabung
+jari jari = 3
+tinggi = 5
+
+a = jari-jari
+b = tinggi
+c = volume
+π = 22/7 / 3.14
+
+c = π*a^2*b
+===========================================================================================
+tentukan algoritma dan pseudocode volume kerucut
+diameter = 5
+tinggi = 4
+
+a = diameter = 5 (r = a/2 = 2.5)
+t = tinggi = 4
+c = volume
+π = 22/7 / 3.14
+
+c = 1/3*π*r^2*t
+c = 1/3*3.14*2.5*2.5*4 
+
+
+
+
+
+
+
+
+
+
+
+
+
